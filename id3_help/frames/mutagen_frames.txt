@@ -1,0 +1,247 @@
+CHAP - Chapter
+CTOC - Table of contents
+TALB - Album
+TBPM - Beats per minute
+TCOM - Composer
+TCON - Content type (Genre)
+
+    ID3 has several ways genres can be represented; for convenience,
+    use the 'genres' property rather than the 'text' attribute.
+    
+TCOP - Copyright (c)
+TCMP - iTunes Compilation Flag
+TDAT - Date of recording (DDMM)
+TDEN - Encoding Time
+TDES - iTunes Podcast Description
+TKWD - iTunes Podcast Keywords
+TCAT - iTunes Podcast Category
+MVNM - iTunes Movement Name
+MVIN - iTunes Movement Number/Count
+GRP1 - iTunes Grouping
+TDOR - Original Release Time
+TDLY - Audio Delay (ms)
+TDRC - Recording Time
+TDRL - Release Time
+TDTG - Tagging Time
+TENC - Encoder
+TEXT - Lyricist
+TFLT - File type
+TGID - iTunes Podcast Identifier
+TIME - Time of recording (HHMM)
+TIT1 - Content group description
+TIT2 - Title
+TIT3 - Subtitle/Description refinement
+TKEY - Starting Key
+TLAN - Audio Languages
+TLEN - Audio Length (ms)
+TMED - Source Media Type
+TMOO - Mood
+TOAL - Original Album
+TOFN - Original Filename
+TOLY - Original Lyricist
+TOPE - Original Artist/Performer
+TORY - Original Release Year
+TOWN - Owner/Licensee
+TPE1 - Lead Artist/Performer/Soloist/Group
+TPE2 - Band/Orchestra/Accompaniment
+TPE3 - Conductor
+TPE4 - Interpreter/Remixer/Modifier
+TPOS - Part of set
+TPRO - Produced (P)
+TPUB - Publisher
+TRCK - Track Number
+TRDA - Recording Dates
+TRSN - Internet Radio Station Name
+TRSO - Internet Radio Station Owner
+TSIZ - Size of audio data (bytes)
+TSO2 - iTunes Album Artist Sort
+TSOA - Album Sort Order key
+TSOC - iTunes Composer Sort
+TSOP - Perfomer Sort Order key
+TSOT - Title Sort Order key
+TSRC - International Standard Recording Code (ISRC)
+TSSE - Encoder settings
+TSST - Set Subtitle
+TYER - Year of recording
+TXXX - User-defined text data.
+
+    TXXX frames have a 'desc' attribute which is set to any Unicode
+    value (though the encoding of the text and the description must be
+    the same). Many taggers use this frame to store freeform keys.
+    
+WCOM - Commercial Information
+WCOP - Copyright Information
+WFED - iTunes Podcast Feed
+WOAF - Official File Information
+WOAR - Official Artist/Performer Information
+WOAS - Official Source Information
+WORS - Official Internet Radio Information
+WPAY - Payment Information
+WPUB - Official Publisher Information
+WXXX - User-defined URL data.
+
+    Like TXXX, this has a freeform description associated with it.
+    
+TIPL - Involved People List
+TMCL - Musicians Credits List
+IPLS - Involved People List
+MCDI - Binary dump of CD's TOC
+ETCO - Event timing codes.
+MLLT - MPEG location lookup table.
+
+    This frame's attributes may be changed in the future based on
+    feedback from real-world use.
+    
+SYTC - Synchronised tempo codes.
+
+    This frame's attributes may be changed in the future based on
+    feedback from real-world use.
+    
+USLT - Unsynchronised lyrics/text transcription.
+
+    Lyrics have a three letter ISO language code ('lang'), a
+    description ('desc'), and a block of plain text ('text').
+    
+SYLT - Synchronised lyrics/text.
+COMM - User comment.
+
+    User comment frames have a descrption, like TXXX, and also a three
+    letter ISO language code in the 'lang' attribute.
+    
+RVA2 - Relative volume adjustment (2).
+
+    This frame is used to implemented volume scaling, and in
+    particular, normalization using ReplayGain.
+
+    Attributes:
+
+    * desc -- description or context of this adjustment
+    * channel -- audio channel to adjust (master is 1)
+    * gain -- a + or - dB gain relative to some reference level
+    * peak -- peak of the audio as a floating point number, [0, 1]
+
+    When storing ReplayGain tags, use descriptions of 'album' and
+    'track' on channel 1.
+    
+EQU2 - Equalisation (2).
+
+    Attributes:
+    method -- interpolation method (0 = band, 1 = linear)
+    desc -- identifying description
+    adjustments -- list of (frequency, vol_adjustment) pairs
+    
+RVAD - Relative volume adjustment
+RVRB - Reverb.
+APIC - Attached (or linked) Picture.
+
+    Attributes:
+
+    * encoding -- text encoding for the description
+    * mime -- a MIME type (e.g. image/jpeg) or '-->' if the data is a URI
+    * type -- the source of the image (3 is the album front cover)
+    * desc -- a text description of the image
+    * data -- raw image data, as a byte string
+
+    Mutagen will automatically compress large images when saving tags.
+    
+PCNT - Play counter.
+
+    The 'count' attribute contains the (recorded) number of times this
+    file has been played.
+
+    This frame is basically obsoleted by POPM.
+    
+PCST - iTunes Podcast Flag
+POPM - Popularimeter.
+
+    This frame keys a rating (out of 255) and a play count to an email
+    address.
+
+    Attributes:
+
+    * email -- email this POPM frame is for
+    * rating -- rating from 0 to 255
+    * count -- number of times the files has been played (optional)
+    
+GEOB - General Encapsulated Object.
+
+    A blob of binary data, that is not a picture (those go in APIC).
+
+    Attributes:
+
+    * encoding -- encoding of the description
+    * mime -- MIME type of the data or '-->' if the data is a URI
+    * filename -- suggested filename if extracted
+    * desc -- text description of the data
+    * data -- raw data, as a byte string
+    
+RBUF - Recommended buffer size.
+
+    Attributes:
+
+    * size -- recommended buffer size in bytes
+    * info -- if ID3 tags may be elsewhere in the file (optional)
+    * offset -- the location of the next ID3 tag, if any
+
+    Mutagen will not find the next tag itself.
+    
+AENC - Audio encryption.
+
+    Attributes:
+
+    * owner -- key identifying this encryption type
+    * preview_start -- unencrypted data block offset
+    * preview_length -- number of unencrypted blocks
+    * data -- data required for decryption (optional)
+
+    Mutagen cannot decrypt files.
+    
+LINK - Linked information.
+
+    Attributes:
+
+    * frameid -- the ID of the linked frame
+    * url -- the location of the linked frame
+    * data -- further ID information for the frame
+    
+POSS - Position synchronisation frame
+
+    Attribute:
+
+    * format -- format of the position attribute (frames or milliseconds)
+    * position -- current position of the file
+    
+UFID - Unique file identifier.
+
+    Attributes:
+
+    * owner -- format/type of identifier
+    * data -- identifier
+    
+USER - Terms of use.
+
+    Attributes:
+
+    * encoding -- text encoding
+    * lang -- ISO three letter language code
+    * text -- licensing terms for the audio
+    
+OWNE - Ownership frame.
+COMR - Commercial frame.
+ENCR - Encryption method registration.
+
+    The standard does not allow multiple ENCR frames with the same owner
+    or the same method. Mutagen only verifies that the owner is unique.
+    
+GRID - Group identification registration.
+PRIV - Private frame.
+SIGN - Signature frame.
+SEEK - Seek frame.
+
+    Mutagen does not find tags at seek offsets.
+    
+ASPI - Audio seek point index.
+
+    Attributes: S, L, N, b, and Fi. For the meaning of these, see
+    the ID3v2.4 specification. Fi is a list of integers.
+    

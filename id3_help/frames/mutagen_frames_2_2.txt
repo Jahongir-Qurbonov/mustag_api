@@ -1,0 +1,75 @@
+MVN - iTunes Movement Name
+MVI - iTunes Movement Number/Count
+GP1 - iTunes Grouping
+UFI - Unique File Identifier
+TT1 - Content group description
+TT2 - Title
+TT3 - Subtitle/Description refinement
+TP1 - Lead Artist/Performer/Soloist/Group
+TP2 - Band/Orchestra/Accompaniment
+TP3 - Conductor
+TP4 - Interpreter/Remixer/Modifier
+TCM - Composer
+TXT - Lyricist
+TLA - Audio Language(s)
+TCO - Content Type (Genre)
+TAL - Album
+TPA - Part of set
+TRK - Track Number
+TRC - International Standard Recording Code (ISRC)
+TYE - Year of recording
+TDA - Date of recording (DDMM)
+TIM - Time of recording (HHMM)
+TRD - Recording Dates
+TMT - Source Media Type
+TFT - File Type
+TBP - Beats per minute
+TCP - iTunes Compilation Flag
+TCR - Copyright (C)
+TPB - Publisher
+TEN - Encoder
+TST - Title Sort Order key
+TSA - Album Sort Order key
+TS2 - iTunes Album Artist Sort
+TSP - Perfomer Sort Order key
+TSC - iTunes Composer Sort
+TSS - Encoder settings
+TOF - Original Filename
+TLE - Audio Length (ms)
+TSI - Audio Data size (bytes)
+TDY - Audio Delay (ms)
+TKE - Starting Key
+TOT - Original Album
+TOA - Original Artist/Perfomer
+TOL - Original Lyricist
+TOR - Original Release Year
+TXX - User-defined Text
+WAF - Official File Information
+WAR - Official Artist/Performer Information
+WAS - Official Source Information
+WCM - Commercial Information
+WCP - Copyright Information
+WPB - Official Publisher Information
+WXX - User-defined URL
+IPL - Involved people list
+MCI - Binary dump of CD's TOC
+ETC - Event timing codes
+MLL - MPEG location lookup table
+STC - Synced tempo codes
+ULT - Unsychronised lyrics/text transcription
+SLT - Synchronised lyrics/text
+COM - Comment
+RVA - Relative volume adjustment
+REV - Reverb
+PIC - Attached Picture.
+
+    The 'mime' attribute of an ID3v2.2 attached picture must be either
+    'PNG' or 'JPG'.
+    
+GEO - General Encapsulated Object
+CNT - Play counter
+POP - Popularimeter
+BUF - Recommended buffer size
+CRM - Encrypted meta frame
+CRA - Audio encryption
+LNK - Linked information

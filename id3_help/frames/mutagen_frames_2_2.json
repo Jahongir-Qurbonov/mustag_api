@@ -1,0 +1,714 @@
+{
+    "MVN": {
+        "doc": "iTunes Movement Name",
+        "FrameID": "MVN",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "MVI": {
+        "doc": "iTunes Movement Number/Count",
+        "FrameID": "MVI",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "GP1": {
+        "doc": "iTunes Grouping",
+        "FrameID": "GP1",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "UFI": {
+        "doc": "Unique File Identifier",
+        "FrameID": "UFI",
+        "_framespec": {
+            "owner": "Latin1TextSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "TT1": {
+        "doc": "Content group description",
+        "FrameID": "TT1",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TT2": {
+        "doc": "Title",
+        "FrameID": "TT2",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TT3": {
+        "doc": "Subtitle/Description refinement",
+        "FrameID": "TT3",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TP1": {
+        "doc": "Lead Artist/Performer/Soloist/Group",
+        "FrameID": "TP1",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TP2": {
+        "doc": "Band/Orchestra/Accompaniment",
+        "FrameID": "TP2",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TP3": {
+        "doc": "Conductor",
+        "FrameID": "TP3",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TP4": {
+        "doc": "Interpreter/Remixer/Modifier",
+        "FrameID": "TP4",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TCM": {
+        "doc": "Composer",
+        "FrameID": "TCM",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TXT": {
+        "doc": "Lyricist",
+        "FrameID": "TXT",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TLA": {
+        "doc": "Audio Language(s)",
+        "FrameID": "TLA",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TCO": {
+        "doc": "Content Type (Genre)",
+        "FrameID": "TCO",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TAL": {
+        "doc": "Album",
+        "FrameID": "TAL",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TPA": {
+        "doc": "Part of set",
+        "FrameID": "TPA",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TRK": {
+        "doc": "Track Number",
+        "FrameID": "TRK",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TRC": {
+        "doc": "International Standard Recording Code (ISRC)",
+        "FrameID": "TRC",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TYE": {
+        "doc": "Year of recording",
+        "FrameID": "TYE",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TDA": {
+        "doc": "Date of recording (DDMM)",
+        "FrameID": "TDA",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TIM": {
+        "doc": "Time of recording (HHMM)",
+        "FrameID": "TIM",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TRD": {
+        "doc": "Recording Dates",
+        "FrameID": "TRD",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TMT": {
+        "doc": "Source Media Type",
+        "FrameID": "TMT",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TFT": {
+        "doc": "File Type",
+        "FrameID": "TFT",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TBP": {
+        "doc": "Beats per minute",
+        "FrameID": "TBP",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TCP": {
+        "doc": "iTunes Compilation Flag",
+        "FrameID": "TCP",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TCR": {
+        "doc": "Copyright (C)",
+        "FrameID": "TCR",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TPB": {
+        "doc": "Publisher",
+        "FrameID": "TPB",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TEN": {
+        "doc": "Encoder",
+        "FrameID": "TEN",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TST": {
+        "doc": "Title Sort Order key",
+        "FrameID": "TST",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TSA": {
+        "doc": "Album Sort Order key",
+        "FrameID": "TSA",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TS2": {
+        "doc": "iTunes Album Artist Sort",
+        "FrameID": "TS2",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TSP": {
+        "doc": "Perfomer Sort Order key",
+        "FrameID": "TSP",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TSC": {
+        "doc": "iTunes Composer Sort",
+        "FrameID": "TSC",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TSS": {
+        "doc": "Encoder settings",
+        "FrameID": "TSS",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TOF": {
+        "doc": "Original Filename",
+        "FrameID": "TOF",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TLE": {
+        "doc": "Audio Length (ms)",
+        "FrameID": "TLE",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TSI": {
+        "doc": "Audio Data size (bytes)",
+        "FrameID": "TSI",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TDY": {
+        "doc": "Audio Delay (ms)",
+        "FrameID": "TDY",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TKE": {
+        "doc": "Starting Key",
+        "FrameID": "TKE",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TOT": {
+        "doc": "Original Album",
+        "FrameID": "TOT",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TOA": {
+        "doc": "Original Artist/Perfomer",
+        "FrameID": "TOA",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TOL": {
+        "doc": "Original Lyricist",
+        "FrameID": "TOL",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TOR": {
+        "doc": "Original Release Year",
+        "FrameID": "TOR",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "TXX": {
+        "doc": "User-defined Text",
+        "FrameID": "TXX",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "desc": "EncodedTextSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "WAF": {
+        "doc": "Official File Information",
+        "FrameID": "WAF",
+        "_framespec": {
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "WAR": {
+        "doc": "Official Artist/Performer Information",
+        "FrameID": "WAR",
+        "_framespec": {
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "WAS": {
+        "doc": "Official Source Information",
+        "FrameID": "WAS",
+        "_framespec": {
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "WCM": {
+        "doc": "Commercial Information",
+        "FrameID": "WCM",
+        "_framespec": {
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "WCP": {
+        "doc": "Copyright Information",
+        "FrameID": "WCP",
+        "_framespec": {
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "WPB": {
+        "doc": "Official Publisher Information",
+        "FrameID": "WPB",
+        "_framespec": {
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "WXX": {
+        "doc": "User-defined URL",
+        "FrameID": "WXX",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "desc": "EncodedTextSpec",
+            "url": "Latin1TextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "IPL": {
+        "doc": "Involved people list",
+        "FrameID": "IPL",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "people": "MultiSpec"
+        },
+        "_optionalspec": {}
+    },
+    "MCI": {
+        "doc": "Binary dump of CD's TOC",
+        "FrameID": "MCI",
+        "_framespec": {
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "ETC": {
+        "doc": "Event timing codes",
+        "FrameID": "ETC",
+        "_framespec": {
+            "format": "ByteSpec",
+            "events": "KeyEventSpec"
+        },
+        "_optionalspec": {}
+    },
+    "MLL": {
+        "doc": "MPEG location lookup table",
+        "FrameID": "MLL",
+        "_framespec": {
+            "frames": "SizedIntegerSpec",
+            "bytes": "SizedIntegerSpec",
+            "milliseconds": "SizedIntegerSpec",
+            "bits_for_bytes": "ByteSpec",
+            "bits_for_milliseconds": "ByteSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "STC": {
+        "doc": "Synced tempo codes",
+        "FrameID": "STC",
+        "_framespec": {
+            "format": "ByteSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "ULT": {
+        "doc": "Unsychronised lyrics/text transcription",
+        "FrameID": "ULT",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "lang": "StringSpec",
+            "desc": "EncodedTextSpec",
+            "text": "EncodedTextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "SLT": {
+        "doc": "Synchronised lyrics/text",
+        "FrameID": "SLT",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "lang": "StringSpec",
+            "format": "ByteSpec",
+            "type": "ByteSpec",
+            "desc": "EncodedTextSpec",
+            "text": "SynchronizedTextSpec"
+        },
+        "_optionalspec": {}
+    },
+    "COM": {
+        "doc": "Comment",
+        "FrameID": "COM",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "lang": "StringSpec",
+            "desc": "EncodedTextSpec",
+            "text": "MultiSpec"
+        },
+        "_optionalspec": {},
+        "append": true
+    },
+    "RVA": {
+        "doc": "Relative volume adjustment",
+        "FrameID": "RVA",
+        "_framespec": {
+            "adjustments": "RVASpec"
+        },
+        "_optionalspec": {}
+    },
+    "REV": {
+        "doc": "Reverb",
+        "FrameID": "REV",
+        "_framespec": {
+            "left": "SizedIntegerSpec",
+            "right": "SizedIntegerSpec",
+            "bounce_left": "ByteSpec",
+            "bounce_right": "ByteSpec",
+            "feedback_ltl": "ByteSpec",
+            "feedback_ltr": "ByteSpec",
+            "feedback_rtr": "ByteSpec",
+            "feedback_rtl": "ByteSpec",
+            "premix_ltr": "ByteSpec",
+            "premix_rtl": "ByteSpec"
+        },
+        "_optionalspec": {}
+    },
+    "PIC": {
+        "doc": "Attached Picture.\n\n    The 'mime' attribute of an ID3v2.2 attached picture must be either\n    'PNG' or 'JPG'.\n    ",
+        "FrameID": "PIC",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "mime": "StringSpec",
+            "type": "PictureTypeSpec",
+            "desc": "EncodedTextSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "GEO": {
+        "doc": "General Encapsulated Object",
+        "FrameID": "GEO",
+        "_framespec": {
+            "encoding": "EncodingSpec",
+            "mime": "Latin1TextSpec",
+            "filename": "EncodedTextSpec",
+            "desc": "EncodedTextSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "CNT": {
+        "doc": "Play counter",
+        "FrameID": "CNT",
+        "_framespec": {
+            "count": "IntegerSpec"
+        },
+        "_optionalspec": {}
+    },
+    "POP": {
+        "doc": "Popularimeter",
+        "FrameID": "POP",
+        "_framespec": {
+            "email": "Latin1TextSpec",
+            "rating": "ByteSpec"
+        },
+        "_optionalspec": {
+            "count": "IntegerSpec"
+        }
+    },
+    "BUF": {
+        "doc": "Recommended buffer size",
+        "FrameID": "BUF",
+        "_framespec": {
+            "size": "SizedIntegerSpec"
+        },
+        "_optionalspec": {
+            "info": "ByteSpec",
+            "offset": "SizedIntegerSpec"
+        }
+    },
+    "CRM": {
+        "doc": "Encrypted meta frame",
+        "FrameID": "CRM",
+        "_framespec": {
+            "owner": "Latin1TextSpec",
+            "desc": "Latin1TextSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "CRA": {
+        "doc": "Audio encryption",
+        "FrameID": "CRA",
+        "_framespec": {
+            "owner": "Latin1TextSpec",
+            "preview_start": "SizedIntegerSpec",
+            "preview_length": "SizedIntegerSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    },
+    "LNK": {
+        "doc": "Linked information",
+        "FrameID": "LNK",
+        "_framespec": {
+            "frameid": "FrameIDSpec",
+            "url": "Latin1TextSpec",
+            "data": "BinaryDataSpec"
+        },
+        "_optionalspec": {}
+    }
+}
