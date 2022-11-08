@@ -1,0 +1,18 @@
+Musiqa faylini qabul qilib olish:
+    - `upload/` (post):
+        - filename
+        - timedelta
+    - db (save):
+        - filename
+        - file_id (generate from uuid4)
+        - timedelta
+
+Musiqa fayli teglarini olish:
+    - `get_tags/` (get):
+        - file_id
+
+Musiqa fayli teglarini o'zgartirish:
+    - update/ (post):
+        - file_id
+        - update_tags
+

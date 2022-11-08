@@ -1,0 +1,5 @@
+{
+    "editor.linkedEditing": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "files.trimTrailingWhitespace": true
+}

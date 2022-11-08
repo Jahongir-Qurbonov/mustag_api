@@ -1,0 +1,338 @@
+{
+    "Latin1TextSpec": {
+        "spec": "Latin1TextSpec",
+        "frames": [
+            "CHAP",
+            "CTOC",
+            "WCOM",
+            "WCOP",
+            "WFED",
+            "WOAF",
+            "WOAR",
+            "WOAS",
+            "WORS",
+            "WPAY",
+            "WPUB",
+            "WXXX",
+            "RVA2",
+            "EQU2",
+            "APIC",
+            "POPM",
+            "GEOB",
+            "AENC",
+            "LINK",
+            "UFID",
+            "OWNE",
+            "COMR",
+            "ENCR",
+            "GRID",
+            "PRIV"
+        ]
+    },
+    "SizedIntegerSpec": {
+        "spec": "SizedIntegerSpec",
+        "frames": [
+            "CHAP",
+            "MLLT",
+            "RVRB",
+            "RBUF",
+            "AENC",
+            "ASPI"
+        ]
+    },
+    "ID3FramesSpec": {
+        "spec": "ID3FramesSpec",
+        "frames": [
+            "CHAP",
+            "CTOC"
+        ]
+    },
+    "CTOCFlagsSpec": {
+        "spec": "CTOCFlagsSpec",
+        "frames": [
+            "CTOC"
+        ]
+    },
+    "Latin1TextListSpec": {
+        "spec": "Latin1TextListSpec",
+        "frames": [
+            "CTOC"
+        ]
+    },
+    "EncodingSpec": {
+        "spec": "EncodingSpec",
+        "frames": [
+            "TALB",
+            "TBPM",
+            "TCOM",
+            "TCON",
+            "TCOP",
+            "TCMP",
+            "TDAT",
+            "TDEN",
+            "TDES",
+            "TKWD",
+            "TCAT",
+            "MVNM",
+            "MVIN",
+            "GRP1",
+            "TDOR",
+            "TDLY",
+            "TDRC",
+            "TDRL",
+            "TDTG",
+            "TENC",
+            "TEXT",
+            "TFLT",
+            "TGID",
+            "TIME",
+            "TIT1",
+            "TIT2",
+            "TIT3",
+            "TKEY",
+            "TLAN",
+            "TLEN",
+            "TMED",
+            "TMOO",
+            "TOAL",
+            "TOFN",
+            "TOLY",
+            "TOPE",
+            "TORY",
+            "TOWN",
+            "TPE1",
+            "TPE2",
+            "TPE3",
+            "TPE4",
+            "TPOS",
+            "TPRO",
+            "TPUB",
+            "TRCK",
+            "TRDA",
+            "TRSN",
+            "TRSO",
+            "TSIZ",
+            "TSO2",
+            "TSOA",
+            "TSOC",
+            "TSOP",
+            "TSOT",
+            "TSRC",
+            "TSSE",
+            "TSST",
+            "TYER",
+            "TXXX",
+            "WXXX",
+            "TIPL",
+            "TMCL",
+            "IPLS",
+            "USLT",
+            "SYLT",
+            "COMM",
+            "APIC",
+            "GEOB",
+            "USER",
+            "OWNE",
+            "COMR"
+        ]
+    },
+    "MultiSpec": {
+        "spec": "MultiSpec",
+        "frames": [
+            "TALB",
+            "TBPM",
+            "TCOM",
+            "TCON",
+            "TCOP",
+            "TCMP",
+            "TDAT",
+            "TDEN",
+            "TDES",
+            "TKWD",
+            "TCAT",
+            "MVNM",
+            "MVIN",
+            "GRP1",
+            "TDOR",
+            "TDLY",
+            "TDRC",
+            "TDRL",
+            "TDTG",
+            "TENC",
+            "TEXT",
+            "TFLT",
+            "TGID",
+            "TIME",
+            "TIT1",
+            "TIT2",
+            "TIT3",
+            "TKEY",
+            "TLAN",
+            "TLEN",
+            "TMED",
+            "TMOO",
+            "TOAL",
+            "TOFN",
+            "TOLY",
+            "TOPE",
+            "TORY",
+            "TOWN",
+            "TPE1",
+            "TPE2",
+            "TPE3",
+            "TPE4",
+            "TPOS",
+            "TPRO",
+            "TPUB",
+            "TRCK",
+            "TRDA",
+            "TRSN",
+            "TRSO",
+            "TSIZ",
+            "TSO2",
+            "TSOA",
+            "TSOC",
+            "TSOP",
+            "TSOT",
+            "TSRC",
+            "TSSE",
+            "TSST",
+            "TYER",
+            "TXXX",
+            "TIPL",
+            "TMCL",
+            "IPLS",
+            "COMM"
+        ]
+    },
+    "EncodedTextSpec": {
+        "spec": "EncodedTextSpec",
+        "frames": [
+            "TXXX",
+            "WXXX",
+            "USLT",
+            "SYLT",
+            "COMM",
+            "APIC",
+            "GEOB",
+            "USER",
+            "OWNE",
+            "COMR"
+        ]
+    },
+    "BinaryDataSpec": {
+        "spec": "BinaryDataSpec",
+        "frames": [
+            "MCDI",
+            "MLLT",
+            "SYTC",
+            "APIC",
+            "GEOB",
+            "AENC",
+            "LINK",
+            "UFID",
+            "ENCR",
+            "GRID",
+            "PRIV",
+            "SIGN"
+        ]
+    },
+    "ByteSpec": {
+        "spec": "ByteSpec",
+        "frames": [
+            "ETCO",
+            "MLLT",
+            "SYTC",
+            "SYLT",
+            "EQU2",
+            "RVRB",
+            "POPM",
+            "POSS",
+            "COMR",
+            "ENCR",
+            "GRID",
+            "SIGN",
+            "ASPI"
+        ]
+    },
+    "KeyEventSpec": {
+        "spec": "KeyEventSpec",
+        "frames": [
+            "ETCO"
+        ]
+    },
+    "StringSpec": {
+        "spec": "StringSpec",
+        "frames": [
+            "USLT",
+            "SYLT",
+            "COMM",
+            "USER",
+            "OWNE",
+            "COMR"
+        ]
+    },
+    "SynchronizedTextSpec": {
+        "spec": "SynchronizedTextSpec",
+        "frames": [
+            "SYLT"
+        ]
+    },
+    "ChannelSpec": {
+        "spec": "ChannelSpec",
+        "frames": [
+            "RVA2"
+        ]
+    },
+    "VolumeAdjustmentSpec": {
+        "spec": "VolumeAdjustmentSpec",
+        "frames": [
+            "RVA2"
+        ]
+    },
+    "VolumePeakSpec": {
+        "spec": "VolumePeakSpec",
+        "frames": [
+            "RVA2"
+        ]
+    },
+    "VolumeAdjustmentsSpec": {
+        "spec": "VolumeAdjustmentsSpec",
+        "frames": [
+            "EQU2"
+        ]
+    },
+    "RVASpec": {
+        "spec": "RVASpec",
+        "frames": [
+            "RVAD"
+        ]
+    },
+    "PictureTypeSpec": {
+        "spec": "PictureTypeSpec",
+        "frames": [
+            "APIC"
+        ]
+    },
+    "IntegerSpec": {
+        "spec": "IntegerSpec",
+        "frames": [
+            "PCNT",
+            "PCST",
+            "POSS",
+            "SEEK"
+        ]
+    },
+    "FrameIDSpec": {
+        "spec": "FrameIDSpec",
+        "frames": [
+            "LINK"
+        ]
+    },
+    "ASPIIndexSpec": {
+        "spec": "ASPIIndexSpec",
+        "frames": [
+            "ASPI"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "IntegerSpec": {
+        "spec": "IntegerSpec",
+        "frames": [
+            "POPM"
+        ]
+    },
+    "ByteSpec": {
+        "spec": "ByteSpec",
+        "frames": [
+            "RBUF"
+        ]
+    },
+    "SizedIntegerSpec": {
+        "spec": "SizedIntegerSpec",
+        "frames": [
+            "RBUF"
+        ]
+    },
+    "Latin1TextSpec": {
+        "spec": "Latin1TextSpec",
+        "frames": [
+            "COMR"
+        ]
+    },
+    "BinaryDataSpec": {
+        "spec": "BinaryDataSpec",
+        "frames": [
+            "COMR"
+        ]
+    }
+}
