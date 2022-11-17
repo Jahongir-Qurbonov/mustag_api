@@ -7,6 +7,7 @@ h11==0.14.0
 httptools==0.5.0
 idna==3.4
 mutagen==1.46.0
+peewee==3.15.4
 pydantic==1.10.2
 python-dotenv==0.21.0
 python-multipart==0.0.5
